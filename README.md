@@ -1,1 +1,1 @@
-# python-advanced
+# skillbox-python-advanced ![python](python-logo.jpg)
