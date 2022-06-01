@@ -1,0 +1,10 @@
+total 80
+-rw-r--r-- 1 root root   888 May 24 12:57 hw_2_1_max_number.py
+-rw-r--r-- 1 root root  2090 May 24 14:22 hw_2_2_ps_aux_rss.py
+-rw-r--r-- 1 root root  1060 May 24 21:09 hw_2_3_mean_size_ls.py
+-rw-r--r-- 1 root root  1059 May 23 23:20 hw_2_4_hello_world_with_day.py
+-rw-r--r-- 1 root root  1734 May 23 23:21 hw_3_1.py
+-rw-r--r-- 1 root root  1748 May 14 09:37 hw_3_2.py
+-rw-r--r-- 1 root root  2029 May 24 16:56 hw_3_3.py
+-rw-r--r-- 1 root root 41372 May 24 15:12 output_file.txt
+-rw-r--r-- 1 root root     0 May 24 21:09 output_mean_size_ls.txt

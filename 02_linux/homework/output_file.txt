@@ -1,0 +1,359 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 165948  7356 ?        Ss    2021   1:19 /lib/systemd/systemd splash --system --deserialize 124
+root           2  0.0  0.0      0     0 ?        S     2021   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<    2021   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<    2021   0:00 [rcu_par_gp]
+root           9  0.0  0.0      0     0 ?        I<    2021   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S     2021   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S     2021   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S     2021   9:11 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I     2021   3:45 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S     2021   0:03 [migration/0]
+root          15  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/0]
+root          16  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/1]
+root          17  0.0  0.0      0     0 ?        S     2021   0:03 [migration/1]
+root          18  0.0  0.0      0     0 ?        S     2021   1:30 [ksoftirqd/1]
+root          21  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S     2021   0:03 [migration/2]
+root          23  0.0  0.0      0     0 ?        S     2021   1:29 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/3]
+root          27  0.0  0.0      0     0 ?        S     2021   0:03 [migration/3]
+root          28  0.0  0.0      0     0 ?        S     2021   1:35 [ksoftirqd/3]
+root          35  0.0  0.0      0     0 ?        S     2021   0:00 [kdevtmpfs]
+root          36  0.0  0.0      0     0 ?        I<    2021   0:00 [netns]
+root          37  0.0  0.0      0     0 ?        I<    2021   0:00 [inet_frag_wq]
+root          38  0.0  0.0      0     0 ?        S     2021   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S     2021   0:00 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S     2021   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<    2021   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S     2021   9:35 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN    2021   0:00 [ksmd]
+root          46  0.0  0.0      0     0 ?        SN    2021   0:32 [khugepaged]
+root          65  0.0  0.0      0     0 ?        I<    2021   0:00 [kintegrityd]
+root          66  0.0  0.0      0     0 ?        I<    2021   0:00 [kblockd]
+root          67  0.0  0.0      0     0 ?        I<    2021   0:00 [blkcg_punt_bio]
+root          68  0.0  0.0      0     0 ?        I<    2021   0:00 [tpm_dev_wq]
+root          69  0.0  0.0      0     0 ?        I<    2021   0:00 [edac-poller]
+root          70  0.0  0.0      0     0 ?        I<    2021   0:00 [devfreq_wq]
+root          71  0.0  0.0      0     0 ?        I<    2021   0:28 [kworker/1:1H-kblockd]
+root          72  0.0  0.0      0     0 ?        S     2021  11:33 [kswapd0]
+root          73  0.0  0.0      0     0 ?        I<    2021   0:00 [kthrotld]
+root          74  0.0  0.0      0     0 ?        S     2021   0:00 [irq/122-aerdrv]
+root          75  0.0  0.0      0     0 ?        S     2021   0:00 [irq/123-pciehp]
+root          77  0.0  0.0      0     0 ?        I<    2021   0:00 [acpi_thermal_pm]
+root          79  0.0  0.0      0     0 ?        I<    2021   0:00 [mld]
+root          80  0.0  0.0      0     0 ?        I<    2021   0:00 [ipv6_addrconf]
+root          82  0.0  0.0      0     0 ?        I<    2021   0:40 [kworker/0:1H-events_highpri]
+root          90  0.0  0.0      0     0 ?        I<    2021   0:00 [kstrp]
+root          93  0.0  0.0      0     0 ?        I<    2021   0:00 [zswap-shrink]
+root         135  0.0  0.0      0     0 ?        I<    2021   0:25 [kworker/2:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        I<    2021   0:00 [cryptd]
+root         154  0.0  0.0      0     0 ?        I<    2021   0:00 [ata_sff]
+root         157  0.0  0.0      0     0 ?        S     2021   0:00 [scsi_eh_0]
+root         159  0.0  0.0      0     0 ?        I<    2021   0:00 [scsi_tmf_0]
+root         161  0.0  0.0      0     0 ?        S     2021   0:00 [scsi_eh_1]
+root         163  0.0  0.0      0     0 ?        I<    2021   0:00 [scsi_tmf_1]
+root         216  0.0  0.0      0     0 ?        S     2021   0:00 [card0-crtc0]
+root         217  0.0  0.0      0     0 ?        S     2021   0:00 [card0-crtc1]
+root         218  0.0  0.0      0     0 ?        S     2021   0:00 [card0-crtc2]
+root         222  0.0  0.0      0     0 ?        I<    2021   0:26 [kworker/3:1H-kblockd]
+root         265  0.0  0.0      0     0 ?        S     2021   0:46 [jbd2/sda5-8]
+root         266  0.0  0.0      0     0 ?        I<    2021   0:00 [ext4-rsv-conver]
+root         394  0.0  0.0      0     0 ?        S     2021   0:00 [watchdogd]
+root         404  0.0  0.0      0     0 ?        I<    2021   0:00 [cfg80211]
+root         437  0.0  0.0      0     0 ?        S     2021   0:34 [irq/132-iwlwifi]
+root         568  0.0  0.1  17544  9676 ?        Ss    2021  87:57 /sbin/mount.ntfs-3g /dev/sda1 /media/root/Disk-ntfs -o rw,nodev,nosuid,locale=en_US.UTF-8
+root         608  0.0  0.0   8124  1456 ?        Ss    2021   0:18 /usr/sbin/haveged --Foreground --verbose=1
+root         645  0.0  0.0   8676  2168 ?        Ss    2021   0:02 /usr/sbin/cron -f
+message+     646  0.0  0.0  13368  5892 ?        Ss    2021   6:43 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         647  0.0  0.1 334884 10816 ?        Ssl   2021   7:15 /usr/sbin/NetworkManager --no-daemon
+root         648  0.0  0.1 239988  8820 ?        Ssl   2021   0:05 /usr/libexec/polkitd --no-debug
+root         649  0.0  0.0 224324  6500 ?        Ssl   2021   0:08 /usr/sbin/rsyslogd -n -iNONE
+root         650  0.0  0.0  11940  3888 ?        Ss    2021   0:00 /usr/sbin/smartd -n
+root         652  0.0  0.0 311012  4736 ?        Ss    2021   0:06 /lib/systemd/systemd-logind
+root         691  0.0  0.0 242796  3624 ?        Ssl   2021   0:01 /usr/sbin/ModemManager
+root         694  0.0  0.4 1603892 33392 ?       Ssl   2021   3:24 /usr/sbin/dockerd -H fd://
+root         697  0.0  0.0 118608  6000 ?        Ssl   2021   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         727  0.0  0.0 243052  4412 ?        Ssl   2021   0:00 /usr/sbin/gdm3
+root         839  0.0  0.2 1411996 17140 ?       Ssl   2021   2:57 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+rtkit        843  0.0  0.0 155824  2512 ?        SNsl  2021   0:11 /usr/libexec/rtkit-daemon
+root        1014  0.0  0.1 543564  8568 ?        Ssl   2021   1:30 /usr/libexec/udisks2/udisksd
+root        1154  0.0  0.0 238920  4300 ?        Ssl   2021   0:15 /usr/libexec/upowerd
+root        1313  0.0  0.0  15380  5688 ?        Ss    2021   2:16 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+colord      1359  0.0  0.0 245028  6956 ?        Ssl   2021   0:00 /usr/libexec/colord
+root        1441  0.0  0.0  16128  5224 ?        Ss    2021   0:07 /lib/systemd/systemd --user
+root        1442  0.0  0.0 167540   872 ?        S     2021   0:00 (sd-pam)
+root        1465  0.0  0.0  11352  4104 ?        Ss    2021   0:31 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1471  0.0  0.0 163716  2400 tty2     Ssl+  2021   0:00 /usr/libexec/gdm-x-session --run-script /usr/bin/gnome-session
+root        1473  0.0  0.8 646672 70404 tty2     Sl+   2021 221:16 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/0/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+root        1483  0.0  0.1 521636  8724 tty2     Sl+   2021   0:09 /usr/libexec/gnome-session-binary
+root        1554  0.0  0.0   5964    44 ?        Ss    2021   0:03 /usr/bin/ssh-agent /usr/bin/im-launch /usr/bin/gnome-session
+root        1575  0.0  0.0 312300  2708 ?        Ssl   2021   0:00 /usr/libexec/at-spi-bus-launcher
+root        1581  0.0  0.0  10096  2748 ?        S     2021   0:16 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+root        1606  0.0  0.0 238980  4648 ?        Ssl   2021   0:02 /usr/libexec/gvfsd
+root        1620  0.0  0.0 581416  5440 ?        Sl    2021   0:00 /usr/libexec/gnome-shell-calendar-server
+root        1626  0.0  0.0 234148  1824 ?        Ssl   2021   0:00 /usr/libexec/xdg-permission-store
+root        1646  0.0  0.0 167380  2248 ?        Sl    2021   0:51 /usr/libexec/at-spi2-registryd --use-gnome-session
+root        1658  0.0  0.0 1138400 6744 ?        Ssl   2021   0:00 /usr/libexec/evolution-source-registry
+root        1659  0.0  0.0 769540  6612 ?        Ssl   2021   0:09 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1669  0.0  0.0 234180  1732 ?        Ssl   2021   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+root        1673  0.0  0.0 235276  2600 ?        Ssl   2021   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1677  0.0  0.0 311612  1860 ?        Ssl   2021   0:30 /usr/libexec/gvfs-afc-volume-monitor
+root        1682  0.0  0.0 234416  2072 ?        Ssl   2021   0:00 /usr/libexec/gvfs-goa-volume-monitor
+root        1686  0.0  0.1 557340  8344 ?        Sl    2021   0:00 /usr/libexec/goa-daemon
+root        1694  0.0  0.0 340360  3388 ?        Sl    2021   0:04 /usr/libexec/goa-identity-service
+root        1702  0.0  0.0 1447392 6708 ?        Ssl   2021   0:02 /usr/libexec/evolution-calendar-factory
+root        1718  0.0  0.0 157824  2548 ?        Ssl   2021   0:02 /usr/libexec/dconf-service
+root        1722  0.0  0.0 750408  5920 ?        Ssl   2021   0:01 /usr/libexec/evolution-addressbook-factory
+root        1737  0.0  0.0 340020  5668 ?        Sl    2021   0:11 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+root        1763  0.0  0.0 456672  2216 tty2     Sl+   2021   0:02 /usr/libexec/gsd-usb-protection
+root        1765  0.0  0.1 737360 13004 tty2     Sl+   2021   0:06 /usr/libexec/gsd-media-keys
+root        1768  0.0  0.0 455620  3088 tty2     Sl+   2021   0:02 /usr/libexec/gsd-rfkill
+root        1769  0.0  0.0 308188  2716 tty2     Sl+   2021   0:02 /usr/libexec/gsd-a11y-settings
+root        1775  0.0  0.1 343972 13456 tty2     Sl+   2021   0:03 /usr/libexec/gsd-wacom
+root        1779  0.0  0.2 383056 17524 tty2     Sl+   2021   0:09 /usr/libexec/gsd-power
+root        1784  0.0  0.0 234440  3704 tty2     Sl+   2021   0:06 /usr/libexec/gsd-screensaver-proxy
+root        1785  0.0  0.1 611304 12400 tty2     Sl+   2021   0:07 /usr/libexec/gsd-color
+root        1792  0.0  0.1 344516 11708 tty2     Sl+   2021   0:04 /usr/libexec/gsd-xsettings
+root        1793  0.0  0.0 388624  2888 tty2     Sl+   2021   0:02 /usr/libexec/gsd-wwan
+root        1794  0.0  0.0 321608  3388 tty2     Sl+   2021   0:02 /usr/libexec/gsd-print-notifications
+root        1795  0.0  0.0 463924  6304 tty2     Sl+   2021   2:57 /usr/libexec/gsd-sharing
+root        1803  0.0  0.0 375780  5016 tty2     Sl+   2021   0:02 /usr/libexec/gsd-datetime
+root        1805  0.0  0.0 460216  2392 tty2     Sl+   2021   0:02 /usr/libexec/gsd-smartcard
+root        1810  0.0  0.0 312548  4288 tty2     Sl+   2021   0:25 /usr/libexec/gsd-housekeeping
+root        1813  0.0  0.0 321108  3340 tty2     Sl+   2021   0:02 /usr/libexec/gsd-sound
+root        1814  0.0  0.1 343608 12308 tty2     Sl+   2021   0:03 /usr/libexec/gsd-keyboard
+root        1846  0.0  0.0 344180  4916 tty2     Sl+   2021   0:00 /usr/libexec/gsd-printer
+root        1924  0.0  0.0 232680  3016 tty2     Sl+   2021   0:00 /usr/libexec/gsd-disk-utility-notify
+root        1925  0.0  0.2 721904 17828 tty2     Sl+   2021   0:03 /usr/libexec/evolution-data-server/evolution-alarm-notify
+root        1926  0.0  0.2 746860 23384 tty2     SNl+  2021   0:33 /usr/libexec/tracker-miner-fs-3
+root        2089  0.0  0.0 161680  6592 ?        Ssl   2021   0:21 /usr/libexec/gvfsd-metadata
+root        2136  0.0  0.1 513044 14452 ?        Sl    2021   0:02 /usr/libexec/gvfsd-http --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+root        2453  0.2  8.3 3696712 672072 tty2   Sl+   2021 696:35 /usr/lib/firefox-esr/firefox-esr
+root        2576  0.0  0.0  96492  2176 ?        Ssl   2021   0:00 /usr/sbin/pcscd --foreground --auto-exit
+root        2596  0.0  2.7 2982076 224232 tty2   Sl+   2021  28:12 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 6227 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root        2666  0.0  1.1 2487496 95936 tty2    Sl+   2021   0:54 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 6999 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root        2887  0.0  0.0 745316  5120 ?        Ssl   2021   0:18 /usr/libexec/xdg-desktop-portal
+root        2891  0.0  0.0 603684  5388 ?        Ssl   2021   0:01 /usr/libexec/xdg-document-portal
+root        2895  0.0  0.0   2336   584 ?        Ss    2021   0:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/0/doc
+root        2901  0.0  0.1 452128 12736 ?        Ssl   2021   0:17 /usr/libexec/xdg-desktop-portal-gtk
+_rpc       21058  0.0  0.0   8056  2104 ?        Ss    2021   0:01 /sbin/rpcbind -f -w
+root      529088  0.0  2.6 3362728 211164 tty2   Sl+   2021 177:20 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 36 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      529248  0.0  2.9 3252056 232616 tty2   Sl+   2021  76:27 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 39 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      529285  0.0  1.9 3300236 157328 tty2   Sl+   2021 121:10 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 40 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      529326  0.0  1.3 2801748 106624 tty2   Sl+   2021  50:20 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 41 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      529400  0.0  1.4 3373256 119476 tty2   Sl+   2021  52:41 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 43 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      534927  0.0  1.1 2870504 88204 tty2    Sl+   2021  53:10 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 45 -isForBrowser -prefsLen 9857 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root      549627  0.0  0.4 489920 35280 ?        Rsl   2021   7:07 /usr/libexec/gnome-terminal-server
+root      549649  0.0  0.0  10236  3480 pts/0    Ss    2021   0:00 bash
+root      550278  0.0  0.0 190824  7024 tty2     Sl+   2021   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20210901125844 -prefsLen 9857 -prefMapSize 226848 -appdir /usr/lib/firefox-esr/browser 2453 true rdd
+root      691645  0.0  0.0 927308  3204 ?        Sl    2021   0:00 /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+root      691661  0.0  0.0 314676  2480 ?        Sl    2021   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/5
+postgres  691740  0.0  0.1 213596 12764 ?        Ss    2021   0:08 /usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf
+postgres  691741  0.0  0.1 213708 13936 ?        Ss    2021   0:08 /usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.conf
+postgres  691742  0.0  0.1 241272 14064 ?        S     2021   0:17 /usr/lib/postgresql/11/bin/postgres -D /var/lib/postgresql/11/main -c config_file=/etc/postgresql/11/main/postgresql.conf
+postgres  691743  0.0  0.1 245368 12660 ?        S     2021   0:25 /usr/lib/postgresql/10/bin/postgres -D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf
+postgres  691746  0.0  0.0 213724  5304 ?        Ss    2021   0:00 postgres: 12/main: checkpointer   
+postgres  691747  0.0  0.0 213596  3612 ?        Ss    2021   0:08 postgres: 12/main: background writer   
+postgres  691748  0.0  0.0 213596  4280 ?        Ss    2021   0:07 postgres: 12/main: walwriter   
+postgres  691749  0.0  0.0 214136  6280 ?        Ss    2021   0:05 postgres: 12/main: autovacuum launcher   
+postgres  691750  0.0  0.0  67976  3028 ?        Ss    2021   0:05 postgres: 12/main: stats collector   
+postgres  691751  0.0  0.0 214028  4668 ?        Ss    2021   0:00 postgres: 12/main: logical replication launcher   
+postgres  691753  0.0  0.0 213812  3472 ?        Ss    2021   0:00 postgres: 13/main: checkpointer 
+postgres  691754  0.0  0.0 213708  3236 ?        Ss    2021   0:08 postgres: 13/main: background writer 
+postgres  691755  0.0  0.0 213708  6616 ?        Ss    2021   0:08 postgres: 13/main: walwriter 
+postgres  691756  0.0  0.0 214248  5800 ?        Ss    2021   0:05 postgres: 13/main: autovacuum launcher 
+postgres  691757  0.0  0.0  68064  2700 ?        Ss    2021   0:05 postgres: 13/main: stats collector 
+postgres  691758  0.0  0.0 214264  4064 ?        Ss    2021   0:00 postgres: 13/main: logical replication launcher 
+postgres  691760  0.0  0.0 241372  3204 ?        Ss    2021   0:00 postgres: 11/main: checkpointer   
+postgres  691761  0.0  0.0 241272  2988 ?        Ss    2021   0:08 postgres: 11/main: background writer   
+postgres  691762  0.0  0.0 241272  5732 ?        Ss    2021   0:07 postgres: 11/main: walwriter   
+postgres  691763  0.0  0.0 241808  4272 ?        Ss    2021   0:10 postgres: 11/main: autovacuum launcher   
+postgres  691764  0.0  0.0  96320  2380 ?        Ss    2021   0:11 postgres: 11/main: stats collector   
+postgres  691765  0.0  0.0 241672  4356 ?        Ss    2021   0:00 postgres: 11/main: logical replication launcher   
+postgres  691771  0.0  0.0 245476  6360 ?        Ss    2021   0:00 postgres: 10/main: checkpointer process   
+postgres  691772  0.0  0.0 245368  3928 ?        Ss    2021   0:08 postgres: 10/main: writer process   
+postgres  691773  0.0  0.0 245368  3624 ?        Ss    2021   0:08 postgres: 10/main: wal writer process   
+postgres  691774  0.0  0.0 245932  4552 ?        Ss    2021   0:15 postgres: 10/main: autovacuum launcher process   
+postgres  691775  0.0  0.0 100572  3212 ?        Ss    2021   0:18 postgres: 10/main: stats collector process   
+postgres  691776  0.0  0.0 245680  4584 ?        Ss    2021   0:00 postgres: 10/main: bgworker: logical replication launcher   
+root      698837  0.0  1.1 1191148 95836 ?       Sl    2021   0:58 /usr/bin/gnome-software --gapplication-service
+root      698902  0.0  0.0  54820  7784 ?        S     2021   0:00 python3 /usr/lib/software-properties/software-properties-dbus
+root      839266  0.0  0.1  63384 12772 ?        Ss    2021   0:19 /lib/systemd/systemd-journald
+root      847079  0.0  0.0  25040  4112 ?        Ss    2021   0:03 /lib/systemd/systemd-udevd
+root      856440  0.0  0.0      0     0 ?        I<    2021   0:00 [xfsalloc]
+root      856441  0.0  0.0      0     0 ?        I<    2021   0:00 [xfs_mru_cache]
+root      856445  0.0  0.0      0     0 ?        S     2021   0:00 [jfsIO]
+root      856446  0.0  0.0      0     0 ?        S     2021   0:00 [jfsCommit]
+root      856447  0.0  0.0      0     0 ?        S     2021   0:00 [jfsCommit]
+root      856448  0.0  0.0      0     0 ?        S     2021   0:00 [jfsCommit]
+root      856449  0.0  0.0      0     0 ?        S     2021   0:00 [jfsCommit]
+root      856450  0.0  0.0      0     0 ?        S     2021   0:00 [jfsSync]
+postgres  864330  0.0  0.1 213884 11460 ?        Ss    2021   0:07 /usr/lib/postgresql/14/bin/postgres -D /var/lib/postgresql/14/main -c config_file=/etc/postgresql/14/main/postgresql.conf
+postgres  864332  0.0  0.0 213984  2460 ?        Ss    2021   0:00 postgres: 14/main: checkpointer 
+postgres  864333  0.0  0.0 213884  2648 ?        Ss    2021   0:03 postgres: 14/main: background writer 
+postgres  864334  0.0  0.0 213884  3360 ?        Ss    2021   0:03 postgres: 14/main: walwriter 
+postgres  864335  0.0  0.0 214556  5564 ?        Ss    2021   0:03 postgres: 14/main: autovacuum launcher 
+postgres  864336  0.0  0.0  68600  2640 ?        Ss    2021   0:04 postgres: 14/main: stats collector 
+postgres  864337  0.0  0.0 214440  5220 ?        Ss    2021   0:00 postgres: 14/main: logical replication launcher 
+root      864829  0.0  0.0 239992  3060 ?        Ssl   2021   0:12 /usr/libexec/accounts-daemon
+root      868161  0.0  0.8 443584 69820 ?        Ssl   2021   1:55 /usr/libexec/packagekitd
+root      868468  0.0  0.0      0     0 ?        I<    2021   0:00 [iprt-VBoxWQueue]
+root      868469  0.0  0.0      0     0 ?        S     2021   0:00 [iprt-VBoxTscThr]
+root     1130228  0.0  0.0 239964  4596 ?        Ssl   2021   0:01 /usr/libexec/boltd
+root     1338190  0.0  0.0  10236  2728 pts/1    Ss    2021   0:00 bash
+root     1338201  0.0  0.0  77284  7024 pts/1    S+    2021   5:58 mocp
+root     1338202  0.0  0.1 390316 12612 ?        Ssl   2021  44:27 mocp
+root     1417251  0.0  0.0  81112  2112 ?        SLs   2021   0:00 /usr/bin/gpg-agent --supervised
+root     1570599  0.0  0.0  10236  4064 pts/3    Ss+   2021   0:00 bash
+root     1571373  0.0  0.0  11988  5176 pts/4    Ss    2021   0:00 bash
+root     1571385  0.0  2.0 3036480 164560 tty2   Sl+   2021  12:52 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 51 -isForBrowser -prefsLen 9993 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root     1571782  0.0  2.7 4557052 216780 tty2   Rl+   2021  23:08 /usr/bin/gnome-shell
+root     1571816  0.0  0.0 314764  7448 tty2     Sl    2021   0:12 ibus-daemon --panel disable --xim
+root     1571821  0.0  0.0 235116  3420 tty2     Sl    2021   0:00 /usr/libexec/ibus-dconf
+root     1571822  0.0  0.1 272736 15260 tty2     Sl    2021   0:03 /usr/libexec/ibus-extension-gtk3
+root     1571826  0.0  0.1 195156 13832 tty2     Sl    2021   0:05 /usr/libexec/ibus-x11 --kill-daemon
+root     1571830  0.0  0.0 587336  3232 ?        Sl    2021   0:00 /usr/libexec/ibus-portal
+root     1571855  0.0  0.1 2662424 15396 ?       Sl    2021   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+root     1571906  0.0  0.0 161264  4104 tty2     Sl    2021   0:03 /usr/libexec/ibus-engine-simple
+root     1572190  0.0  0.0   9804  2744 pts/4    S     2021   0:00 su
+root     1572191  0.0  0.0  10244  3176 pts/4    S+    2021   0:00 bash
+root     1573116  0.0  0.0 167632  5524 ?        Sl    2021   0:00 gdm-session-worker [pam/gdm-launch-environment]
+Debian-+ 1573121  0.0  0.0  16140  6036 ?        Ss    2021   0:01 /lib/systemd/systemd --user
+Debian-+ 1573122  0.0  0.0 168772  1396 ?        S     2021   0:00 (sd-pam)
+Debian-+ 1573142  0.0  0.0  50844  6680 ?        S<sl  2021   0:00 /usr/bin/pipewire
+Debian-+ 1573144  0.0  0.1 355992 10004 ?        Ssl   2021   0:04 /usr/bin/wireplumber
+Debian-+ 1573145  0.0  0.1  28436  9836 ?        S<sl  2021   0:00 /usr/bin/pipewire-pulse
+Debian-+ 1573146  0.0  0.0 163716  3584 tty1     Ssl+  2021   0:00 /usr/libexec/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+Debian-+ 1573149  0.0  0.0  10088  3780 ?        Ss    2021   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Debian-+ 1573151  0.0  0.2 528180 19660 tty1     Sl+   2021   0:05 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/131/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+Debian-+ 1573160  0.0  0.0 238380  3784 ?        Ssl   2021   0:00 /usr/libexec/gvfsd
+Debian-+ 1573180  0.0  0.0   6276   708 tty1     S+    2021   0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+Debian-+ 1573181  0.0  0.0  10392  3752 tty1     S+    2021   0:00 dbus-daemon --nofork --print-address 4 --session
+Debian-+ 1573182  0.0  0.0 519312  7988 tty1     Sl+   2021   0:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+Debian-+ 1573192  0.0  0.0 312272  4436 tty1     Sl+   2021   0:00 /usr/libexec/at-spi-bus-launcher
+Debian-+ 1573197  0.0  0.0   9964  2904 tty1     S+    2021   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+Debian-+ 1573204  0.0  0.1 744772 15568 ?        SNsl  2021   0:03 /usr/libexec/tracker-miner-fs-3
+Debian-+ 1573207  0.0  3.5 3992788 282448 tty1   Sl+   2021   0:34 /usr/bin/gnome-shell
+Debian-+ 1573219  0.0  0.1 572904  8992 ?        Ssl   2021   0:03 /usr/libexec/gvfs-udisks2-volume-monitor
+Debian-+ 1573233  0.0  0.0 234180  4040 ?        Ssl   2021   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+Debian-+ 1573237  0.0  0.0 235264  4456 ?        Ssl   2021   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+Debian-+ 1573242  0.0  0.0 311612  4660 ?        Ssl   2021   0:04 /usr/libexec/gvfs-afc-volume-monitor
+Debian-+ 1573247  0.0  0.0 234416  3684 ?        Ssl   2021   0:00 /usr/libexec/gvfs-goa-volume-monitor
+Debian-+ 1573251  0.0  0.1 557336 11484 ?        Sl    2021   0:00 /usr/libexec/goa-daemon
+Debian-+ 1573253  0.0  0.0 314768  4148 tty1     Sl    2021   0:00 ibus-daemon --panel disable --xim
+Debian-+ 1573255  0.0  0.0 234148  3440 tty1     Sl+   2021   0:00 /usr/libexec/xdg-permission-store
+Debian-+ 1573267  0.0  0.1 340356  8396 ?        Sl    2021   0:00 /usr/libexec/goa-identity-service
+Debian-+ 1573278  0.0  0.0 235100  3564 tty1     Sl    2021   0:00 /usr/libexec/ibus-dconf
+Debian-+ 1573279  0.0  0.0 272008  7548 tty1     Sl    2021   0:02 /usr/libexec/ibus-extension-gtk3
+Debian-+ 1573282  0.0  0.0 189784  7184 tty1     Sl    2021   0:00 /usr/libexec/ibus-x11 --kill-daemon
+Debian-+ 1573284  0.0  0.0 235072  3804 tty1     Sl+   2021   0:00 /usr/libexec/ibus-portal
+Debian-+ 1573297  0.0  0.0 167384  4680 tty1     Sl+   2021   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+Debian-+ 1573305  0.0  0.1 2662244 15288 tty1    Sl+   2021   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+Debian-+ 1573340  0.0  0.0 463900  7340 tty1     Sl+   2021   0:38 /usr/libexec/gsd-sharing
+Debian-+ 1573342  0.0  0.0 336972  6980 tty1     Sl+   2021   0:00 /usr/libexec/gsd-wacom
+Debian-+ 1573344  0.0  0.1 531984  8692 tty1     Sl+   2021   0:00 /usr/libexec/gsd-color
+Debian-+ 1573345  0.0  0.0 410288  7108 tty1     Sl+   2021   0:00 /usr/libexec/gsd-keyboard
+Debian-+ 1573346  0.0  0.0 247876  5664 tty1     Sl+   2021   0:00 /usr/libexec/gsd-print-notifications
+Debian-+ 1573347  0.0  0.0 455620  3368 tty1     Sl+   2021   0:00 /usr/libexec/gsd-rfkill
+Debian-+ 1573348  0.0  0.0 312596  2392 tty1     Sl+   2021   0:00 /usr/libexec/gsd-smartcard
+Debian-+ 1573350  0.0  0.0 375756  6940 tty1     Sl+   2021   0:00 /usr/libexec/gsd-datetime
+Debian-+ 1573356  0.0  0.1 664712 10476 tty1     Sl+   2021   0:00 /usr/libexec/gsd-media-keys
+Debian-+ 1573358  0.0  0.0 234180  3356 tty1     Sl+   2021   0:00 /usr/libexec/gsd-screensaver-proxy
+Debian-+ 1573359  0.0  0.0 321088  4512 tty1     Sl+   2021   0:00 /usr/libexec/gsd-sound
+Debian-+ 1573360  0.0  0.0 308172  3632 tty1     Sl+   2021   0:00 /usr/libexec/gsd-a11y-settings
+Debian-+ 1573364  0.0  0.0 309676  3732 tty1     Sl+   2021   0:03 /usr/libexec/gsd-housekeeping
+Debian-+ 1573367  0.0  0.1 521268 12808 tty1     Sl+   2021   0:01 /usr/libexec/gsd-power
+Debian-+ 1573429  0.0  0.0 344180  6828 tty1     Sl+   2021   0:00 /usr/libexec/gsd-printer
+Debian-+ 1573430  0.0  0.0 161264  3508 tty1     Sl    2021   0:00 /usr/libexec/ibus-engine-simple
+Debian-+ 1573446  0.0  0.0 2662244 7272 tty1     Sl+   2021   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+Debian-+ 1573481  0.0  0.0 160968  4440 ?        Ssl   2021   0:00 /usr/libexec/gvfsd-metadata
+root     1574391  0.0  0.0   4908  2328 tty3     Ss+   2021   0:00 /sbin/agetty -o -p -- \u --noclear tty3 linux
+root     1590136  0.0  0.0      0     0 ?        I<   Jan13   0:00 [uas]
+root     1902354  0.0  0.0 238764  4640 ?        Sl   Feb06   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+root     2276308  0.0  0.0      0     0 ?        I<   Apr06   0:02 [kworker/3:2H-events_highpri]
+root     2276311  0.0  0.0      0     0 ?        I<   Apr06   0:02 [kworker/1:2H-events_highpri]
+root     2276312  0.0  0.0      0     0 ?        I<   Apr06   0:02 [kworker/2:2H-events_highpri]
+root     2276316  0.0  0.0      0     0 ?        I<   Apr06   0:00 [kworker/0:2H-events_highpri]
+root     2410644  0.0  0.0      0     0 ?        I<   Apr21   0:28 [kworker/u9:2-i915_flip]
+root     2562232  0.0  0.0      0     0 ?        I    May11   0:03 [kworker/2:4-cgroup_destroy]
+root     2685174  0.0  0.0      0     0 ?        I    May11   0:01 [kworker/3:0-events]
+root     2685239  0.0  0.0   2432  1552 pts/0    S    May11   0:00 /bin/sh /root/Downloads/pycharm-community-2022.1/bin/pycharm.sh
+root     2685266  0.2 24.0 6185176 1928060 pts/0 Sl   May11  32:53 /root/Downloads/pycharm-community-2022.1/jbr/bin/java -classpath /root/Downloads/pycharm-community-2022.1/lib/util.jar:/root/Downloads/pycharm-community-2022.1/lib/app.jar:/root/Downloads/pycharm-community-2022.1/lib/3rd-party-rt.jar:/root/Downloads/pycharm-community-2022.1/lib/jna.jar:/root/Downloads/pycharm-community-2022.1/lib/platform-statistics-devkit.jar:/root/Downloads/pycharm-community-2022.1/lib/jps-model.jar:/root/Downloads/pycharm-community-2022.1/lib/rd-core.jar:/root/Downloads/pycharm-community-2022.1/lib/rd-framework.jar:/root/Downloads/pycharm-community-2022.1/lib/stats.jar:/root/Downloads/pycharm-community-2022.1/lib/protobuf.jar:/root/Downloads/pycharm-community-2022.1/lib/external-system-rt.jar:/root/Downloads/pycharm-community-2022.1/lib/forms_rt.jar:/root/Downloads/pycharm-community-2022.1/lib/intellij-test-discovery.jar:/root/Downloads/pycharm-community-2022.1/lib/rd-swing.jar:/root/Downloads/pycharm-community-2022.1/lib/groovy.jar:/root/Downloads/pycharm-community-2022.1/lib/annotations-java5.jar:/root/Downloads/pycharm-community-2022.1/lib/byte-buddy-agent.jar:/root/Downloads/pycharm-community-2022.1/lib/error-prone-annotations.jar:/root/Downloads/pycharm-community-2022.1/lib/externalProcess-rt.jar:/root/Downloads/pycharm-community-2022.1/lib/grpc-netty-shaded.jar:/root/Downloads/pycharm-community-2022.1/lib/intellij-coverage-agent-1.0.656.jar:/root/Downloads/pycharm-community-2022.1/lib/jetbrains-annotations.jar:/root/Downloads/pycharm-community-2022.1/lib/jsch-agent.jar:/root/Downloads/pycharm-community-2022.1/lib/junit4.jar:/root/Downloads/pycharm-community-2022.1/lib/junixsocket-core.jar:/root/Downloads/pycharm-community-2022.1/lib/lz4-java.jar:/root/Downloads/pycharm-community-2022.1/lib/platform-objectSerializer-annotations.jar:/root/Downloads/pycharm-community-2022.1/lib/pty4j.jar:/root/Downloads/pycharm-community-2022.1/lib/rd-text.jar:/root/Downloads/pycharm-community-2022.1/lib/util_rt.jar:/root/Downloads/pycharm-community-2022.1/lib/winp.jar:/root/Downloads/pycharm-community-2022.1/lib/dbus-java-3.2.1.jar:/root/Downloads/pycharm-community-2022.1/lib/java-utils-1.0.6.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-unixsocket-0.23.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-ffi-2.1.10.jar:/root/Downloads/pycharm-community-2022.1/lib/jffi-1.2.19.jar:/root/Downloads/pycharm-community-2022.1/lib/jffi-1.2.19-native.jar:/root/Downloads/pycharm-community-2022.1/lib/asm-7.1.jar:/root/Downloads/pycharm-community-2022.1/lib/asm-commons-7.1.jar:/root/Downloads/pycharm-community-2022.1/lib/asm-analysis-7.1.jar:/root/Downloads/pycharm-community-2022.1/lib/asm-tree-7.1.jar:/root/Downloads/pycharm-community-2022.1/lib/asm-util-7.1.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-a64asm-1.0.0.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-x86asm-1.0.2.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-constants-0.9.12.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-enxio-0.21.jar:/root/Downloads/pycharm-community-2022.1/lib/jnr-posix-3.0.50.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+IgnoreUnrecognizedVMOptions -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx978m -XX:ErrorFile=/root/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/root/java_error_in_pycharm_.hprof -Djb.vmOptionsFile=/root/.config/JetBrains/PyCharmCE2022.1/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.strict.classpath=true -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharmCE2022.1 -Didea.platform.prefix=PyCharmCore -Dsplash=true com.intellij.idea.Main
+root     2685321  0.0  0.0   4412  3228 pts/0    S    May11   0:03 /root/Downloads/pycharm-community-2022.1/bin/fsnotifier
+root     2685363  0.0  0.0  10896  6504 pts/2    Ss+  May11   0:01 /bin/bash --rcfile /root/Downloads/pycharm-community-2022.1/plugins/terminal/jediterm-bash.in -i
+root     2685410  0.0  0.6 360720 55296 pts/0    Sl   May11   1:09 /usr/bin/python3.9 /root/Downloads/pycharm-community-2022.1/plugins/python-ce/helpers/pydev/pydevconsole.py --mode=client --port=37781
+root     2755872  0.0  0.0      0     0 ?        I    May12   0:09 [kworker/0:0-events]
+root     2755894  0.0  0.0      0     0 ?        I    May12   0:01 [kworker/3:2-events]
+root     2755952  0.0  0.0      0     0 ?        I    May12   0:01 [kworker/1:1-rcu_gp]
+uuidd    2756266  0.0  0.0   8936  1288 ?        Ss   May12   0:00 /usr/sbin/uuidd --socket-activation
+root     2756313  0.0  1.6 2559432 128304 tty2   Sl+  May12   0:35 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 52 -isForBrowser -prefsLen 9993 -prefMapSize 226848 -parentBuildID 20210901125844 -appdir /usr/lib/firefox-esr/browser 2453 true tab
+root     2756734  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/2:0-events]
+root     2757297  0.0  0.0      0     0 ?        I<   May12   0:00 [kworker/u9:0-rb_allocator]
+root     2757656  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/0:3-events]
+root     2758059  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/1:2-mm_percpu_wq]
+root     2758498  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:1-events_unbound]
+root     2758550  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:2-events_unbound]
+root     2758623  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/1:0-events]
+root     2758639  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/3:1-events]
+root     2758659  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:0-events_unbound]
+root     2758661  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/2:1-cgroup_destroy]
+root     2758662  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/2:2-mm_percpu_wq]
+root     2758670  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:3-events_unbound]
+root     2758671  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:4-events_unbound]
+root     2758672  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:5-events_unbound]
+root     2758673  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:6-events_unbound]
+root     2758674  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:7-events_unbound]
+root     2758675  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:8-events_unbound]
+root     2758676  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:9-events_unbound]
+root     2758677  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:10-events_unbound]
+root     2758678  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:11-events_unbound]
+root     2758679  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:12-events_unbound]
+root     2758680  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:13-flush-8:0]
+root     2758681  0.0  0.0      0     0 ?        I    May12   0:00 [kworker/u8:14-events_unbound]
+root     2758682  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:15-events_unbound]
+root     2758683  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:16-events_unbound]
+root     2758684  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:17-events_unbound]
+root     2758685  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:18-events_unbound]
+root     2758686  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:19-events_unbound]
+root     2758687  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:20-flush-8:0]
+root     2758688  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:21-i915]
+root     2758689  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:22-i915]
+root     2758690  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:23-ext4-rsv-conversion]
+root     2758691  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:24-events_unbound]
+root     2758692  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:25-events_unbound]
+root     2758693  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:26-events_unbound]
+root     2758694  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:27-events_unbound]
+root     2758695  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:28-flush-8:0]
+root     2758696  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:29-events_unbound]
+root     2758697  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:30-events_unbound]
+root     2758698  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:31-events_unbound]
+root     2758699  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:32-events_unbound]
+root     2758700  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:33-events_unbound]
+root     2758701  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:34-events_unbound]
+root     2758702  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:35-events_unbound]
+root     2758703  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:36-events_unbound]
+root     2758704  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:37-events_unbound]
+root     2758705  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:38-kec]
+root     2758706  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:39-flush-8:0]
+root     2758707  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:40-events_unbound]
+root     2758708  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:41-events_unbound]
+root     2758709  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:42-events_unbound]
+root     2758710  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:43-events_unbound]
+root     2758711  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:44-events_unbound]
+root     2758712  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:45-events_unbound]
+root     2758713  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:46-events_unbound]
+root     2758714  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:47-events_unbound]
+root     2758715  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:48-events_unbound]
+root     2758716  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:49-events_unbound]
+root     2758717  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/u8:50]
+root     2758718  0.0  0.0      0     0 ?        S    22:36   0:00 [irq/131-mei_me]
+root     2758719  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/0:1-events]
+root     2758721  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/3:3-events]
+root     2758742  5.8  0.0   4136  3108 ?        SNs  22:36   0:04 /bin/sh /usr/sbin/lynis audit system --cronjob
+root     2758756  0.0  0.0      0     0 ?        I    22:36   0:00 [kworker/0:2-cgroup_destroy]
+root     2758985  0.0  0.0   2432   724 ?        Ss   22:36   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root     2758996  0.0  0.0   2432  1748 ?        S    22:36   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+root     2759410  0.0  0.0      0     0 ?        I<   22:36   0:00 [kworker/u9:1]
+root     2763401  100  1.3 279020 111932 ?       RNl  22:36   1:02 /usr/bin/python3 /usr/bin/unattended-upgrade --download-only
+root     2785466  0.0  0.0  11792  4124 pts/0    R+   22:37   0:00 ps aux
