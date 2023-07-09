@@ -1,0 +1,5 @@
+02:10:07 - password_checker - INFO - Вы пытаетесь аутентифицироваться в Skillbox
+02:10:07 - password_checker - INFO - У вас есть 3 попыток
+02:10:29 - password_checker - WARNING - Вы ввели пустой пароль.
+02:10:39 - password_checker - WARNING - Содержит слова английского языка из словаря
+02:10:39 - password_checker - ERROR - Пользователь трижды ввёл не правильный пароль!
