@@ -1,0 +1,22 @@
+<--""
+   Level WARNING
+   |
+   o   "app"
+   |   Level DEBUG
+   |   Propagate OFF
+   |   Handler Stream <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+   |     Level DEBUG
+   |     Formatter fmt='%(levelname)s | %(name)s | %(asctime)s | %(lineno)s | %(message)s' datefmt='%y-%m-%d %H:%M:%S'
+   |   Handler <CustomHandler (DEBUG)>
+   |     Level DEBUG
+   |     Formatter fmt='%(levelname)s | %(name)s | %(asctime)s | %(lineno)s | %(message)s' datefmt='%y-%m-%d %H:%M:%S'
+   |
+   o   "utils"
+       Level INFO
+       Propagate OFF
+       Handler Stream <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+         Level DEBUG
+         Formatter fmt='%(levelname)s | %(name)s | %(asctime)s | %(lineno)s | %(message)s' datefmt='%y-%m-%d %H:%M:%S'
+       Handler <CustomHandler (DEBUG)>
+         Level DEBUG
+         Formatter fmt='%(levelname)s | %(name)s | %(asctime)s | %(lineno)s | %(message)s' datefmt='%y-%m-%d %H:%M:%S'
