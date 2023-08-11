@@ -1,0 +1,3 @@
+linux ->        docker pull latem/new_year_application:latest
+
+raspberrypi ->  docker pull latem/new_year_app:latest
